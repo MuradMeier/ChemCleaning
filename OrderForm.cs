@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace ChimChi
+namespace Химчистка
 {
     public partial class OrderForm : Form
     {

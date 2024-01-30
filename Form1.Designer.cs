@@ -1,5 +1,5 @@
 ﻿
-namespace ChimChi
+namespace Химчистка
 {
     partial class Form1
     {

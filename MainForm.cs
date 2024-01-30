@@ -8,13 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ChimChi
+namespace Химчистка
 {
     public partial class MainForm : Form
     {
+        public string FullName;
+
         public MainForm()
         {
             InitializeComponent();
+            lbName.Text = FullName;
         }
 
         private void btnExit1_Click(object sender, EventArgs e)
@@ -37,6 +40,15 @@ namespace ChimChi
         {
             NewOrder newOrder = new NewOrder();
             newOrder.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
